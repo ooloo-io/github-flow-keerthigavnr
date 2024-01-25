@@ -1,0 +1,31 @@
+{
+  "name": "github-flow",
+  "version": "1.0.0",
+  "description": "Starter project for GitHub flow course at https://ooloo.io/project/github-flow",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "npx serve src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ooloo-io/github-flow-base.git"
+  },
+  "keywords": [
+    "GitHub Flow"
+  ],
+  "author": "jkettmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ooloo-io/github-flow-base/issues"
+  },
+  "homepage": "https://ooloo.io/project/github-flow",
+  "devDependencies": {
+    "husky": "^4.3.6",
+    "serve": "^11.3.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "sh scripts/validate-branch-name"
+    }
+  }
+}
