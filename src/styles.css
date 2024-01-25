@@ -10,7 +10,7 @@ body {
   border-bottom: 1px solid black;
 }
 .footer {
-  height: 50px;
+  height: 49px;
   display: flex;
   justify-content: center;
   align-items: center;
