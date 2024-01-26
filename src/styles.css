@@ -9,7 +9,6 @@ body {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid black;
-<<<<<<< HEAD
 }
 .footer {
   height: 49px;
@@ -22,6 +21,12 @@ body {
 .content {
   min-height: calc(100vh - 100px);
 }
-=======
+.section {
+  height: 450px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
 }
->>>>>>> main
